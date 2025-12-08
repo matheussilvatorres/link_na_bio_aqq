@@ -90,6 +90,13 @@
 				opacity: 1;
 				transform: scale(1.1);
 			}
+
+			&-img {
+				position: absolute;
+				top: 291px;
+				width: 50px;
+				left: 1047px;
+			}
 		}
 	}
 
@@ -142,22 +149,6 @@
 				font-size: 16px;
 			}
 		}
-
-		// &--main {
-		// 	font-size: 16px;
-		// 	font-weight: 400;
-		// }
-
-		// &--sub {
-		// 	font-family: "Poppins";
-		// 	font-size: 12px;
-		// 	font-weight: 400;
-		// 	opacity: 0.8;
-
-		// 	@include config.breakpoint('medium-down') {
-		// 		font-size: 10px;
-		// 	}
-		// }
 
 		&--icon {
 			position: absolute;
@@ -353,7 +344,7 @@
 			border: none;
 
 			@include config.breakpoint('medium-down') {
-				aspect-ratio: 16 / 9;	
+				aspect-ratio: 16 / 9;
 			}
 		}
 	}

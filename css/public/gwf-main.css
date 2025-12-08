@@ -461,6 +461,12 @@
   opacity: 1;
   transform: scale(1.1);
 }
+.gwf-bio__social--icon-img {
+  position: absolute;
+  top: 291px;
+  width: 50px;
+  left: 1047px;
+}
 .gwf-bio__card {
   text-align: center;
   color: #ffffff;
